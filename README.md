@@ -33,24 +33,25 @@ I use AI-assisted development tools such as GitHub Copilot, Cursor, Claude Code,
 
 ### Transaction Risk API
 
-A production-style Java 17 and Spring Boot backend application that accepts financial transactions and generates explainable risk assessments.
+A production-style Java 17 and Spring Boot backend application that accepts financial transactions and produces explainable risk assessments.
 
-**Key capabilities:**
+#### Key Capabilities
 
-- Secure REST APIs using Spring Boot
-- JWT bearer authentication
-- Explainable LOW, MEDIUM, and HIGH risk scoring
-- Spring Data JPA and Hibernate
-- H2 and PostgreSQL configuration
+- Secure and versioned Spring Boot REST APIs
+- JWT bearer authentication and stateless Spring Security
+- Explainable LOW, MEDIUM, and HIGH risk classifications
+- Spring Data JPA and Hibernate persistence
+- H2 development database and PostgreSQL production configuration
 - Docker and Docker Compose
-- Swagger/OpenAPI documentation
-- JUnit and Spring integration tests
-- GitHub Actions CI
+- Swagger and OpenAPI documentation
+- JUnit and Spring integration testing
+- GitHub Actions continuous integration
 - Railway cloud deployment
-- AI-assisted software-development workflow
+- AI-assisted engineering workflow
 
-**Project links:**
+#### Project Links
 
 - [Live Swagger API](https://transaction-risk-api-production.up.railway.app/swagger-ui/index.html)
+- [Application Health Check](https://transaction-risk-api-production.up.railway.app/actuator/health)
 - [Public GitHub Repository](https://github.com/ramya-reddy-k/transaction-risk-api)
 - [AI-Assisted Development Workflow](https://github.com/ramya-reddy-k/transaction-risk-api/blob/main/docs/ai-assisted-development.md)
