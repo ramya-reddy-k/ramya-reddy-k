@@ -29,18 +29,28 @@ I use AI-assisted development tools such as GitHub Copilot, Cursor, Claude Code,
 - Validate changes using unit tests, integration tests, code reviews, and manual testing.
 - Never share proprietary code, credentials, customer data, or confidential information with public AI tools.
 
-## Currently Building
+## Featured Project
 
-I am currently building public Java backend applications and technical labs demonstrating:
+### Transaction Risk API
 
-- Spring Boot REST APIs
-- JWT and OAuth2 security
-- PostgreSQL and Spring Data JPA
-- Apache Kafka event processing
-- JUnit, Mockito, and Testcontainers
-- Docker and GitHub Actions
-- AI-assisted software engineering practices
+A production-style Java 17 and Spring Boot backend application that accepts financial transactions and generates explainable risk assessments.
 
-## Connect With Me
+**Key capabilities:**
 
-- [LinkedIn](https://www.linkedin.com/in/ramyaareddyk)
+- Secure REST APIs using Spring Boot
+- JWT bearer authentication
+- Explainable LOW, MEDIUM, and HIGH risk scoring
+- Spring Data JPA and Hibernate
+- H2 and PostgreSQL configuration
+- Docker and Docker Compose
+- Swagger/OpenAPI documentation
+- JUnit and Spring integration tests
+- GitHub Actions CI
+- Railway cloud deployment
+- AI-assisted software-development workflow
+
+**Project links:**
+
+- [Live Swagger API](https://transaction-risk-api-production.up.railway.app/swagger-ui/index.html)
+- [Public GitHub Repository](https://github.com/ramya-reddy-k/transaction-risk-api)
+- [AI-Assisted Development Workflow](https://github.com/ramya-reddy-k/transaction-risk-api/blob/main/docs/ai-assisted-development.md)
